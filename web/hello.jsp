@@ -8,13 +8,11 @@
 <title>Hello</title>
 </head>
 <body>
-<head>
-</head>
 <main>
 <article>
 	<h2>Hello ${user.name}</h2>
 	<p><a href="helloagain.jsp">More information about ${user.name}</a></p>
-	<p><a href="Controller?action=helloagain">Or even more information about ${user.name}</a></p>
+	<p><a href="Controller?command=helloagain">Or even more information about ${user.name}</a></p>
 </article>
 </main>
 </body>

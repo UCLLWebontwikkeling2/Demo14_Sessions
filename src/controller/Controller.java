@@ -33,12 +33,12 @@ public class Controller extends HttpServlet {
 	}
 
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String action = request.getParameter("action");
+		String command = request.getParameter("command");
 		String destination = "index.jsp";
-		if (action.equals("hello")) {
+		if (command.equals("hello")) {
 			destination = hello(request, response);
 		}
-		else if (action.equals("helloagain")) {
+		else if (command.equals("helloagain")) {
 			destination = helloagain(request, response);
 		}
 		request.getRequestDispatcher(destination).forward(request, response);

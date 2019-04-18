@@ -11,7 +11,7 @@
 <main>
 <article>
 	<h2>Hello form</h2>
-	<form method="post" action="Controller?action=hello">
+	<form method="post" action="Controller?command=hello">
 		<fieldset>
 			<legend>User Data</legend>
 			<p>

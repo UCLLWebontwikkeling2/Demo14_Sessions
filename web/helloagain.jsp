@@ -8,11 +8,9 @@
 <title>Hello</title>
 </head>
 <body>
-<head>
-</head>
 <main>
 <article>
-	<h2>${user.name} has email address ${user.email} and has password ${user.password}</h2>
+	<p>${user.name} has email address ${user.email} and has password ${user.password}</p>
 </article>
 </main>
 </body>
