@@ -21,7 +21,7 @@
 			</p>
 		</fieldset>
 		<p>
-			<input type="submit" id="hello" value="Hello">
+			<input type="submit" id="hello" value="Hello" name = "button">
 		</p>
 	</form>
 </article>
